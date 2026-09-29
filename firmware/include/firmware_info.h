@@ -4,8 +4,8 @@
 // an, und die Nummer ist mitsigniert (kein Zurückstufen).
 //   FIRMWARE_BUILD    JJJJMMTTNN
 //   FIRMWARE_VERSION  Anzeige in newsroom21
-#define FIRMWARE_VERSION "wm.2026.09.29.1"
-#define FIRMWARE_BUILD 2026092901LL
+#define FIRMWARE_VERSION "wm.2026.09.29.2"
+#define FIRMWARE_BUILD 2026092902LL
 
 // Welches Abbild zu diesem Gerät passt (Ordner firmware/<modell>/ in newsroom21)
 #if defined(ESP8266)
