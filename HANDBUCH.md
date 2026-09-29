@@ -144,7 +144,7 @@ Neue Fassung veröffentlichen:
    (`scripts/make_ota_pubkey.sh`), signiert und legt das Abbild in
    `../newsroom21/firmware/washer-esp32/`.
 3. newsroom21 committen und pushen, auf dem Pi das Update installieren.
-4. Tab **Waschmaschine** → „Firmware aktualisieren“.
+4. Tab **Updates** (oder Tab **Waschmaschine**) → beim Sensor „Installieren“.
 
 Serielle Ausgabe beim Update: `[ota] Signatur gültig – lade …`, `[ota] 10 %` …
 `[ota] fertig – Neustart`, nach dem Neustart `[ota] neue Firmware auf
