@@ -1,0 +1,14 @@
+# Sicherungen der Werksfirmware (ESP-01, ESP32): vollständige Flash-Abzüge,
+# können WLAN-Zugangsdaten des Vorbesitzers bzw. alter Firmware enthalten.
+backup/
+
+# Build-Ergebnisse
+**/.pio/
+**/__pycache__/
+*.bin
+
+# Zugangsdaten gehören nie hierher (sie liegen nur im Gerät)
+.env
+.env.*
+*.secret
+signing-key.pem
